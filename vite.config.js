@@ -5,7 +5,7 @@ import tailwindcss from "tailwindcss";
 // https://vitejs.dev/config/
 export default defineConfig({
   define: {
-    'process.env.API': process.env.API,
+    'process.env': process.env
   },
   plugins: [react()],
   css: {
