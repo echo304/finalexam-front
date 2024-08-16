@@ -1,0 +1,1 @@
+export const API = process.env.API || 'http://localhost:5000/api';
